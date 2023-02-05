@@ -1,4 +1,18 @@
-## 1.0.1 (2023-02-05)
+# [1.1.0](https://github.com/cerico/yuma/compare/v1.0.1...v1.1.0) (2023-02-05)
+
+
+### Bug Fixes
+
+* also added dogs ([5f99a3d](https://github.com/cerico/yuma/commit/5f99a3d19208c4a36da5654425b45a9671447c89))
+
+
+### Features
+
+* also added cat ([72eced4](https://github.com/cerico/yuma/commit/72eced4be316e52dca512896a0a7a02c307c0b7b))
+
+
+
+## [1.0.1](https://github.com/cerico/yuma/compare/9603d3a8278b05414a1cf1aeef3e0ae171130124...v1.0.1) (2023-02-05)
 
 
 ### Bug Fixes
