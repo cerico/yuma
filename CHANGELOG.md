@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/cerico/yuma/compare/v1.1.0...v1.2.0) (2023-02-05)
+
+
+### Features
+
+* portu commit ([3bdf88d](https://github.com/cerico/yuma/commit/3bdf88d5cce745b1811b8c8061037d3fed505912))
+
+
+
 # [1.1.0](https://github.com/cerico/yuma/compare/v1.0.1...v1.1.0) (2023-02-05)
 
 
