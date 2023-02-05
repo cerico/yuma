@@ -16,7 +16,6 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v3.7.1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          git-message: 'Release: {version}'
 
       - name: create release
         uses: actions/create-release@v1
