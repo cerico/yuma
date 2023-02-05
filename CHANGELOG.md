@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/cerico/yuma/compare/v1.2.0...v1.2.1) (2023-02-05)
+
+
+### Bug Fixes
+
+* undo ([3c237fd](https://github.com/cerico/yuma/commit/3c237fdc9e9e8759ed849444cb3cbc6e6bf068c6))
+
+
+
 # [1.2.0](https://github.com/cerico/yuma/compare/v1.1.0...v1.2.0) (2023-02-05)
 
 
