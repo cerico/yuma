@@ -1,6 +1,5 @@
 NPM_TOKEN=$(shell awk -F'=' '{print $$2}' ~/.npmrc)
 COMMIT_FILE = commit
-
 generate:
 	./bin/init.js
 npm:
@@ -9,20 +8,20 @@ npm:
 	rm npm
 patch:
 	echo fix: title > $(COMMIT_FILE)
-	code $(COMMIT_FILE)
+	vi $(COMMIT_FILE)
 minor:
 	echo feat: title > $(COMMIT_FILE)
-	code $(COMMIT_FILE)
+	vi $(COMMIT_FILE)
 major:
 	echo feat!: title > $(COMMIT_FILE)
-	code $(COMMIT_FILE)
+	vi $(COMMIT_FILE)
 
 ifneq ("$(wildcard $(COMMIT_FILE))","")
 pr:
 	git rebase origin/main
 	git reset origin/main
 	git add .
-	git commit -m "feat! publish to npm"
+	git commit -m $(COMMIT_FILE)
 	git push -f
 	gh pr create --fill
 	rm $(COMMIT_FILE)
