@@ -22,7 +22,7 @@ pr:
 	git rebase origin/main
 	git reset origin/main
 	git add .
-	git commit -F $(COMMIT_FILE)
+	git commit -m "feat! publish to npm"
 	git push -f
 	gh pr create --fill
 	rm $(COMMIT_FILE)
