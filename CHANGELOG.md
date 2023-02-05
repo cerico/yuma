@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/cerico/yuma/compare/v1.2.1...v1.3.0) (2023-02-05)
+
+
+### Features
+
+* spelling ([9d37ab3](https://github.com/cerico/yuma/commit/9d37ab3f903b428d8404fe539e1d2534193b1452))
+
+
+
 ## [1.2.1](https://github.com/cerico/yuma/compare/v1.2.0...v1.2.1) (2023-02-05)
 
 
